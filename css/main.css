@@ -102,19 +102,132 @@ html {
 }
 
 body{
-  ;
+  
 }
 
-.page-header{
+.wrapper{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav{
   background-color: #000;
   color:#fff;
-  padding: 1em;
+  padding: 25px;
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
 }
-.page-header h1{
+.nav h1{
 font-size: 1em;
 text-transform: uppercase;
 margin: 0;
+display: inline;
+float:left;
 }
+
+i.fa.fa-bars{
+  display:inline;
+  float: right;
+}
+
+#main-image{
+  background-image: url("../img/purple-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+
+}
+
+#text{
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+div#text h1, h2 {
+  font-weight: bold;
+  color:#fff; 
+}
+
+
+ div#text h2{
+  font-size: 60px;
+}
+
+div#text h3{
+  font-size: 40px;
+}
+
+a#button{
+  border: 3px solid #fff;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+a#button:hover{
+  color: #000000;
+  background-color: #fff;
+  
+}
+
+div#about h2{
+  color: black;
+}
+
+div#work h2{
+  color: black;
+}
+
+
+
+div.project{
+  width: 350px;
+  display: inline;
+  float: left;
+  margin:10px;
+}
+
+div.project img{
+  max-width:100%;
+max-height:100%;
+background-color: #000000;
+opacity: 0.6;
+
+}
+
+h4.text{
+  z-index: 1;
+  color: #000000;
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top:95px;
+  margin-left: 78px;
+}
+
+div.project:hover{
+  background-color: #000000;
+  opacity: 1;
+  color: #fff;
+}
+
+div.project:hover .text{
+  color: #fff;
+  
+}
+
+
+div.footer{
+  display: block;
+  clear: both;
+}
+
 
 
 
